@@ -23,7 +23,7 @@ A transmissão dos dados ocorre periodicamente por meio de uma conexão sem fio 
 2. Arquivo JSON do Node-RED:
    - "configuracao_node_red.json": Arquivo JSON que contém a configuração dos nós do Node-RED, incluindo o tratamento dos dados recebidos e a interconexão com o protocolo MQTT.
    - "css.json": Arquivo JSON que contém a estilização personalizada da interface gráfica do Node-RED para visualização dos dados climáticos em tempo real.
-   - 
+     
 ## Recursos Adicionais
 
 - Cálculo de Eto (Evapotranspiração de Referência) - ✔️
