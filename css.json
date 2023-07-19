@@ -1,0 +1,49 @@
+[
+    {
+        "id": "762eabca67231b4a",
+        "type": "tab",
+        "label": "CSS das Paginas",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d81aa8bc.35b81",
+        "type": "ui_template",
+        "z": "762eabca67231b4a",
+        "group": "339d0edc.4ffe02",
+        "name": "Node-Red Dashboard Custom CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        /* cuida de imagens e cores do fundo da pagina */\n        body {\n            background-color: #a9a9a9 !important;\n            background-repeat: no-repeat !important;\n            background-size: cover !important;\n            background-position: center center !important;\n            margin: 0;\n            /* Remover margens para ocupar toda a tela */\n        }\n        .liquidFillGaugeText{\n        font-size:25px;\n        }\n\n#toolbar {\nbackground-image: url(http://www.labcam.ufop.br/assets/img/logo3.png);\nbackground-repeat: no-repeat;\nbackground-size: contain;\nbackground-position: right 20px top;\n}\n\n        body::after {\n            content: \"\";\n            position: fixed;\n            top: 10px;\n            right: 40px;\n            width: 250px;\n            height: 150px;\n            background-size: cover;\n            z-index: 9999;\n        }\n\n        /* ... outros estilos ... */\n\n        /* cuida das configurações do menu lateral */\n        body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n            color: #ffffff !important;\n            /* Define a cor do texto como branco */\n        }\n    </style>\n</head>\n\n<body>\n    <!-- Seu conteúdo HTML aqui -->\n    <div id=\"toolbar\"></div>\n    <nr-dashboard-cardpanel layout-column>\n        <!-- Conteúdo do cartão de grupo -->\n    </nr-dashboard-cardpanel>\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 440,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "339d0edc.4ffe02",
+        "type": "ui_group",
+        "name": "Heure",
+        "tab": "a2490d0e.a872b",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a2490d0e.a872b",
+        "type": "ui_tab",
+        "name": "Homey Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
