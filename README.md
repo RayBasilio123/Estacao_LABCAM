@@ -14,6 +14,6 @@ A transmissão dos dados ocorre periodicamente por meio de uma conexão sem fio 
 - Utilização de modelos de aprendizado de máquina para previsões meteorológicas - 🚧
 - Monitoramento contínuo dos dados coletados - ✔️
 
-![Esquemático](link_para_esquematico.png)
+![Funcionamento Geral](funcionamento_geral.png)
 
 Sinta-se à vontade para contribuir com melhorias e feedbacks neste projeto! Qualquer ajuda é bem-vinda.
